@@ -1,0 +1,21 @@
+.banner{ background-image: url("../Media/img1.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+padding: 300px 0px;}
+.img1{position: absolute;
+}
+.usb{margin-top: 450px ;}
+.kkk{
+    position: relative;
+}
+.kkk::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 200px;
+top: 0;
+left: 0;
+background-color: blue;
+opacity: 0.4;
+}
+.br-2{ border-radius: 50px !important;}

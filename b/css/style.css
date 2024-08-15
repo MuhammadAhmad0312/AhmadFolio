@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.red{
+	color: #f33f3f;
+}
+.white{
+	color: white;
+}
+/*navbar css start */
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	padding: 0px 100px;
+}
+.navbar ul{
+	display: flex;
+	list-style-type: none;
+	margin-top: 25px;
+}
+.navbar ul li{
+	margin-left: 20px;
+}
+.navbar ul li a{
+	color: white;
+	padding: 23px 20px;
+}
+.navbar ul li a:hover{
+	border-bottom:2px solid red;
+}
+
+/*banner section css stsart here*/
+.banner{
+	background-image: url("../media/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	padding: 180px 0px;
+}
+.banner div{
+	text-align: center;
+}
+.banner div h1{
+	font-size: 60px;
+}
+.product{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 100px;
+}
+.product-inner{
+	border:1px solid gray;
+	width: 30%;
+
+}
+.text{
+	padding: 20px;
+}
+.flex h5{
+	margin: 0px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+

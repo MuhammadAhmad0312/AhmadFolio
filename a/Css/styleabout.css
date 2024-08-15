@@ -1,0 +1,68 @@
+.red{ color: red;}
+.white{color: white;}
+body{ margin: 0;}
+a{text-decoration: none;}
+/* navbar css starts here */
+.navbar{ background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 0px 15px;
+height: 60px;}
+.navbar ul{display: flex;
+list-style-type: none;
+margin-top: 25px;}
+.navbar ul li{padding:0px 20px;
+margin-left: 20px;}
+.navbar ul li a{ padding: 15px 15px;}
+.navbar ul li a:hover{ border-bottom: 2px solid;
+border-color: red;}
+/* navbar css ends here */
+.banner{ background-image: url("../media/banner3.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+padding: 250px 0px;}
+.banner-div{text-align: center;
+font-size: 40px;}
+.banner-div2{ text-align: center;
+font-size: 50px;
+margin-top: -50px;}
+/* navbar css ends here */
+/* about css starts here */
+.about1{ border-bottom: 2px solid;
+border-color: rgb(238, 238, 238);
+margin: 20px;}
+.back1{ background-image: url("../media/smallbanner1.jpg");
+background-size: 35%;
+padding: 250px 0px;
+background-repeat: no-repeat;
+margin-left: 30px;}
+.text1{ 
+width: 40%;
+text-align: center;
+margin-left: 45%;
+margin-top: -250px;
+}
+.icon-main{ display: flex;
+margin-left: 800px;
+margin-top: -300px;
+}
+.icon1{
+padding: 10px;
+margin-left: 20px;
+background-color:rgb(238, 238, 238) ;}
+.icon1:hover{ background-color: red;}
+.bottom{ border-bottom: 2px solid;
+margin: 20px;
+border-color: rgb(238, 238, 238);}
+/* icon section end here */
+.img-main{ display: flex;
+    justify-content: space-around;
+margin-left: 100px; 
+text-align: center;}
+.p1{margin-top: -15px;
+font-size: 12px; 
+}
+.img-item{ border-bottom: 1px solid;
+width: 20%;
+padding: 20px;}
+
